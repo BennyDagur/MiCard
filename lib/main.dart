@@ -11,34 +11,71 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.grey[900],
         body: SafeArea(
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Container(
-
-                  width: 100,
-                  height: double.infinity,
-                ),
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
                       CircleAvatar(
-                      radius: 50,
-                        backgroundColor: Colors.blue,
+                      radius: 85,
+                        backgroundImage: AssetImage('Images/Randy.jpg'),
                       ),
-                      Container(
-                        width: 100,
-                        height: 100,
-                        child: Text('Benoný Dagur Guðmundsson'),
+                      Text('Benoný Dagur Guðmundsson',
+                        style: TextStyle(
+                          fontFamily: "Courgette",
+                          fontSize: 25,
+                          color: Colors.red[800],
+                        ),
+                        ),
+                      Text('NTV STUDENT',
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontFamily: "Courgette",
+                            color: Colors.red[800],
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      SizedBox(
+                        height: 20,
+                        width: 150,
+                        child: Divider(
+                          color: Colors.red[500],
+                        ),
                       ),
-                    ]
-                ),
-                Container(
-                width: 100,
-                height: double.infinity,
-                )
+                      Card(
+                        margin: EdgeInsets.symmetric(vertical: 10.0,
+                        horizontal: 25.0),
+                        child: ListTile(
+                          leading: Icon(
+                            Icons.call,
+                            color: Colors.red,
+                          ),
+                          title: Text(
+                            '+666 123 4567',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.red[800],
+                          ),
+                        ),
+                      ),
+                      ),
+                      Card(
+                        margin: EdgeInsets.symmetric(vertical: 10.0,
+                            horizontal: 25.0),
+                        child: ListTile(
+                            leading: Icon(
+                              Icons.email,
+                              color: Colors.red,
+                            ),
+                          title: Text(
+                            'Benny@email.com',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.red[800],
+                            ),
+                          ),
+                        ),
+                      ),
               ],
             ),
         ),

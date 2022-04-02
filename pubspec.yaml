@@ -20,4 +20,10 @@ flutter:
 
   uses-material-design: true
 
-  # assets:
+  assets:
+    -  Images/
+
+  fonts:
+  - family: Courgette
+    fonts:
+    - asset: fonts/Courgette-Regular.ttf
