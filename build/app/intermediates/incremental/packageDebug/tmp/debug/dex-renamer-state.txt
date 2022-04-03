@@ -1,4 +1,4 @@
-#Sat Apr 02 22:02:10 GMT 2022
+#Sat Apr 02 23:04:47 GMT 2022
 base.0=C\:\\Users\\Venni04\\Documents\\GitHub\\MiCard\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

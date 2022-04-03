@@ -24,6 +24,9 @@ flutter:
     -  Images/
 
   fonts:
-  - family: Courgette
-    fonts:
-    - asset: fonts/Courgette-Regular.ttf
+    - family: Courgette
+      fonts:
+       - asset: fonts/Courgette-Regular.ttf
+    - family: Oxygen
+      fonts:
+       - asset: fonts/Oxygen-Bold.ttf

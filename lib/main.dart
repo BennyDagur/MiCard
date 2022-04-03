@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                       Text('NTV STUDENT',
                           style: TextStyle(
                             fontSize: 25,
-                            fontFamily: "Courgette",
+                            fontFamily: "Oxygen",
                             color: Colors.red[800],
                             fontWeight: FontWeight.bold,
                           ),
